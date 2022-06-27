@@ -1,10 +1,6 @@
 .App {
   text-align: center;
-}
-
-
-.App-header {
-  background-color: #282c34;
+  background-color: rgb(73, 72, 72);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -13,4 +9,11 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.MainContainer{
+  max-width: 1300px;
+  background-color: rebeccapurple;
+}
+
+
 

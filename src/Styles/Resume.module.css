@@ -1,0 +1,136 @@
+.container {
+  margin-top: 10vh;
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.description {
+  margin: 0 0 10px 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.description p {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 850px) {
+  .description {
+    display: flex;
+    flex-direction: column;
+  }
+  .description p{
+    margin: 0;
+  }
+}
+
+.logos {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.logos li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  font-size: 18px;
+}
+
+.logos img {
+  width: 50px;
+  height: 50px;
+}
+
+@media screen and (max-width: 700px) {
+    .logos li {
+      margin: 5px;
+      font-size: 12px;
+    }
+    .logos img{
+        height: 35px;
+        width: 35px;
+    }
+  }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+}
+
+.statement {
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.skills {
+  text-align: left;
+}
+
+.skillsDesc {
+}
+
+.skillsList {
+  font-size: calc(5px + 2vmin);
+}
+
+.skillsList li {
+  list-style: none;
+  margin: 10px;
+  border-left: 2px solid rgb(67, 120, 246);
+  border-bottom: 2px solid rgb(67, 120, 246);
+  padding: 0 0 5px 15px;
+  margin-bottom: 20px;
+}
+
+.experience {
+}
+
+.expList {
+  text-align: left;
+  list-style: none;
+}
+
+.expList li {
+  border-left: 3px solid rgb(67, 120, 246);
+  border-bottom: 3px solid rgb(67, 120, 246);
+  padding: 0 0 5px 15px;
+}
+
+.expContent {
+  padding-left: 20px;
+}
+
+.thanks {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+
+.curGoal p{
+    border-left: 3px solid rgb(67, 120, 246);
+  border-bottom: 3px solid rgb(67, 120, 246);
+  padding: 0 0 5px 15px;
+}
+
+.futGoals ul li{
+    border-left: 3px solid rgb(67, 120, 246);
+    border-bottom: 3px solid rgb(67, 120, 246);
+    padding: 0 0 5px 15px;
+    list-style: none;
+    margin: 20px;
+    text-align: left;
+}
