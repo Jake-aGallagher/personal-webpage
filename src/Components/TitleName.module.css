@@ -4,11 +4,8 @@
     margin: 0 0 10px 0;
 }
 
-.letter{
-   
-}
-
 .letter:hover{
     color: rgb(67, 120, 246);
-    transition-delay: 0.s;
+    transform: translateY(-5px);
+    transition-duration: 0.2s;
 }

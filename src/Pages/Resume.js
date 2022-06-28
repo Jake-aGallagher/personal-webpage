@@ -1,3 +1,4 @@
+import Logos from "../Components/Logos";
 import TitleName from "../Components/TitleName";
 import classes from "../Styles/Resume.module.css";
 
@@ -6,39 +7,10 @@ const Resume = () => {
     <div className={classes.container}>
       <TitleName />
       <h2 className={classes.description}>
-        <p>&#60;Web Developer</p>
+        <p>&#60;WebDeveloper</p>
         <p>className="front-end" &#160;/&#62;</p>
       </h2>
-      <ul className={classes.logos}>
-        <li>
-          <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" />
-          <p>Html</p>
-        </li>
-        <li>
-          <img src="https://img.icons8.com/color/48/000000/css3.png" />
-          <p>CSS</p>
-        </li>
-        <li>
-          <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" />
-          <p>JavaScript</p>
-        </li>
-        <li>
-          <img src="https://img.icons8.com/plasticine/100/000000/react.png" />
-          <p>React</p>
-        </li>
-        <li>
-          <img src="https://img.icons8.com/color/48/000000/nextjs.png" />
-          <p>Next.js</p>
-        </li>
-        <li>
-          <img src="https://img.icons8.com/color/48/000000/redux.png" />
-          <p>Redux</p>
-        </li>
-        <li>
-          <img src="https://img.icons8.com/color/48/000000/firebase.png" />
-          <p>Firebase</p>
-        </li>
-      </ul>
+      <Logos />
       <div className={classes.content}>
         <div className={classes.statement}>
           An ambitious self-taught Front End Web Developer specialising in
@@ -109,7 +81,7 @@ const Resume = () => {
           </ul>
         </div>
       </div>
-      <a target="_blank" href="https://icons8.com" className={classes.thanks}>
+      <a target="_blank" rel="noreferrer" href="https://icons8.com" className={classes.thanks}>
         icons by Icons8
       </a>
     </div>

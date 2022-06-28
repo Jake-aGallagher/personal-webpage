@@ -18,7 +18,7 @@ const Contact = () => {
         </div>
         <div className={classes.item}>
           <p>Github:</p>
-          <a href="https://github.com/Jake-aGallagher" target="_blank" className={classes.link}>
+          <a href="https://github.com/Jake-aGallagher" target="_blank" rel="noreferrer" className={classes.link}>
             Jake-aGallagher
           </a>
         </div>

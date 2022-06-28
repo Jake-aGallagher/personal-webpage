@@ -1,0 +1,81 @@
+.container {
+  margin-top: 10vh;
+  width: 98vw;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.tile {
+  border-bottom: 2px solid rgb(67, 120, 246);
+  border-left: 2px solid rgb(67, 120, 246);
+  width: 80%;
+  margin-bottom: 40px;
+  padding: 10px;
+}
+
+.tile:hover {
+  transition-duration: 0.4s;
+  background-color: rgb(63, 63, 63);
+  border: 2px solid rgb(67, 120, 246);
+}
+
+.tileTitle {
+  margin-top: 5px;
+}
+
+.tileImgFormat {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.tileImg {
+  height: 33vw;
+  width: 33vw;
+  background-color: aquamarine;
+}
+
+.tileLinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.tileLinks a {
+  margin: 5px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.tileLinks a:hover {
+  color: rgb(67, 120, 246);
+}
+
+.tileDesc {
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 1000px) {
+  .tileImgFormat {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .tileImg {
+    height: 50vw;
+    width: 50vw;
+  }
+}
