@@ -39,8 +39,9 @@
 }
 
 .tileImg {
-  height: 33vw;
-  width: 33vw;
+  height: auto;
+  width: auto;
+  max-width: 40vw;
   background-color: aquamarine;
 }
 
@@ -75,7 +76,6 @@
     align-items: center;
   }
   .tileImg {
-    height: 50vw;
-    width: 50vw;
+    max-width: 75vw;
   }
 }
