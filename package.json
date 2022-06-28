@@ -1,5 +1,6 @@
 {
   "name": "personal-webpage",
+  "homepage": "http://jakeGallagher.dev",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
